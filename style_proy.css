@@ -1,0 +1,101 @@
+*{
+    background-color: #F3F5FC;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.logo__ {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    box-sizing: border-box;
+}
+
+.text__area {
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #0a3871;}
+    .text__area:focus {
+        outline: none;
+    }
+
+.mensaje__encript {
+    background: white;
+    background-image: url("/01.6-Proyecto_Encriptador/asset_proy/Muñeco.png"); /*esto agrega la imagen tambien*/
+    background-repeat: no-repeat; /*esto es para que no se repita la imagen*/
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje__encript:focus {
+    outline:  none;
+}
+
+.botones__ {
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.btn__desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn__encriptar {
+    background: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn__copiar {
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    width: 336px;
+    position: absolute;
+    text-align: center;
+}
+
+.informacion__ {
+    color: #495057;
+    font-size: 10px;
+}

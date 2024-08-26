@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_proy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo__" src="/01.6-Proyecto_Encriptador/asset_proy/Logo.png" alt="Logo de Alura">
+        <main>
+            <section>
+                <textarea class="text__area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea> <!--Esta tag hace que el usu ingrese el texto-->
+                <div>
+                    <h6 class="informacion__">Solo letras minísculas y sin tildes</h6>
+                </div>
+                <div class="botones__">
+                    <button class="btn__encriptar" onclick="btnEncriptador()">Encriptar</button>
+                    <button class="btn__desencriptar" onclick="btnDesencriptador()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea class="mensaje__encript" cols="30" rows="10" ></textarea>
+                <div>
+                    <button class="btn__copiar">Copiar</button>
+                </div>
+            </section>
+        </main>
+    </header>
+<script src="logica_proy.js"></script>
+</body>
+</html>
